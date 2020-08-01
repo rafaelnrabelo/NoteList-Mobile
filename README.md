@@ -28,7 +28,7 @@
   - Editar anotação.
   - Apagar anotação.
   
-#### Dependências
+## Dependências
   - React Native
   - Expo
   - Axios
@@ -37,14 +37,12 @@
   - Redux Persist   
    
 ## Testando:
-   1. Clone o repositorio usando `git clone https://github.com/rafaelnrabelo/NoteList-Mobile.git`
-   2. Mova para a pasta clonada usando `cd NoteList-Mobile`
-   
-   Instale o APK disponivel em <a href="https://github.com/rafaelnrabelo/NoteList-Mobile/releases">
+  Instale o APK disponivel em <a href="https://github.com/rafaelnrabelo/NoteList-Mobile/releases">
     Releases
     </a> ou siga os passos abaixo para rodar sua propria aplicação.
-   1. Mova para a pasta mobile usando `cd mobile`
-   2. Instale todas dependecias usando `yarn install`
-   3. Adicione a url de conexão do backend no campo `API_URL` no arquivo `.env.json` na pasta `src`
-   4. Adicione o ID do seu app do Facebook no campo `FACEBOOK_ID` no arquivo `.env.json` na pasta `src`
-   5. Execute `yarn start` para iniciar o expo.
+   1. Clone o repositorio usando `git clone https://github.com/rafaelnrabelo/NoteList-Mobile.git`
+   2. Mova para a pasta clonada usando `cd NoteList-Mobile`
+   3. Instale todas dependecias usando `yarn install`
+   4. Adicione a url de conexão do backend no campo `API_URL` no arquivo `.env.json` na pasta `src`
+   5. Adicione o ID do seu app do Facebook no campo `FACEBOOK_ID` no arquivo `.env.json` na pasta `src`
+   6. Execute `yarn start` para iniciar o expo.
