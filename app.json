@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "NoteList",
+    "slug": "NoteList",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#DA552F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.rnr.notelist",
+      "buildNumber": "2.1.0"
+    },
+    "androidStatusBar": {
+      "translucent": false,
+      "backgroundColor": "#DA552F"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000"
+    },
+    "android": {
+      "package": "com.rnr.notelist"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "experiments": {
+      "redesignedLogBox": true
+    }
+  }
+}
