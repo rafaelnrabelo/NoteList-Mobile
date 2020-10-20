@@ -4,9 +4,8 @@ export const light = StyleSheet.create({
   Container: {
     flex: 1,
     backgroundColor: '#da552f',
+    paddingBottom: 10,
   },
-
-  AvoidView: {},
 
   NoteView: {
     padding: 20,
@@ -23,11 +22,11 @@ export const light = StyleSheet.create({
     fontSize: 26,
     color: 'rgba(0, 0, 0, 0.87)',
     width: 260,
+    padding: 0,
   },
 
   TitleView: {
     flexDirection: 'row',
-    marginBottom: 10,
     alignItems: 'center',
   },
 
@@ -50,7 +49,6 @@ export const light = StyleSheet.create({
     fontSize: 20,
     color: 'rgba(0, 0, 0, 0.7)',
     minHeight: 40,
-    marginBottom: 5,
   },
 
   AddToDo: {
@@ -72,6 +70,7 @@ export const light = StyleSheet.create({
     minWidth: 150,
     maxWidth: '88%',
     fontSize: 18,
+    padding: 4,
   },
 });
 
@@ -79,6 +78,7 @@ export const dark = StyleSheet.create({
   Container: {
     flex: 1,
     backgroundColor: '#121212',
+    paddingBottom: 10,
   },
 
   NoteView: {
@@ -96,6 +96,7 @@ export const dark = StyleSheet.create({
     fontSize: 26,
     color: 'rgba(255, 255, 255, 0.87)',
     width: 260,
+    padding: 0,
   },
 
   PlaceholderColor: {
@@ -104,7 +105,6 @@ export const dark = StyleSheet.create({
 
   TitleView: {
     flexDirection: 'row',
-    marginBottom: 10,
     alignItems: 'center',
   },
 
@@ -127,7 +127,6 @@ export const dark = StyleSheet.create({
     fontSize: 20,
     color: 'rgba(255, 255, 255, 0.7)',
     minHeight: 40,
-    marginBottom: 5,
   },
 
   AddToDo: {
@@ -149,5 +148,6 @@ export const dark = StyleSheet.create({
     minWidth: 150,
     maxWidth: '88%',
     fontSize: 18,
+    padding: 4,
   },
 });

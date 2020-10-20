@@ -4,6 +4,7 @@ export const light = StyleSheet.create({
   Container: {
     flex: 1,
     backgroundColor: '#da552f',
+    paddingBottom: 10,
   },
 
   NoteView: {
@@ -12,16 +13,14 @@ export const light = StyleSheet.create({
     padding: 20,
     marginHorizontal: 20,
     marginTop: 80,
-    marginBottom: 30,
-    height: 'auto',
-    maxHeight: 710,
+    maxHeight: '88%',
   },
 
   TitleText: {
     fontWeight: 'bold',
     fontSize: 26,
     color: 'rgba(0, 0, 0, 0.87)',
-    marginBottom: 10,
+    padding: 0,
   },
 
   DescriptionText: {
@@ -74,6 +73,7 @@ export const light = StyleSheet.create({
     minWidth: 150,
     maxWidth: '88%',
     fontSize: 18,
+    padding: 4,
   },
 });
 
@@ -81,6 +81,7 @@ export const dark = StyleSheet.create({
   Container: {
     flex: 1,
     backgroundColor: '#121212',
+    paddingBottom: 10,
   },
   NoteView: {
     backgroundColor: 'rgba(255, 255, 255, 0.10)',
@@ -94,7 +95,7 @@ export const dark = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 26,
     color: 'rgba(255, 255, 255, 0.87)',
-    marginBottom: 10,
+    padding: 0,
   },
   PlaceholderColor: {
     color: 'rgba(255, 255, 255, 0.5)',
@@ -147,5 +148,6 @@ export const dark = StyleSheet.create({
     minWidth: 150,
     maxWidth: '88%',
     fontSize: 18,
+    padding: 4,
   },
 });
