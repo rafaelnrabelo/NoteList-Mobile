@@ -96,6 +96,9 @@ export const dark = StyleSheet.create({
     color: 'rgba(255, 255, 255, 0.87)',
     marginBottom: 10,
   },
+  PlaceholderColor: {
+    color: 'rgba(255, 255, 255, 0.5)',
+  },
   SaveButton: {
     width: 100,
     height: 35,

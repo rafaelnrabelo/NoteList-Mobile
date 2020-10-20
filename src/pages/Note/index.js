@@ -181,6 +181,9 @@ export default function Note({ route, navigation }) {
           <View style={darkTheme ? dark.TitleView : light.TitleView}>
             <TextInput
               placeholder="Titulo"
+              placeholderTextColor={
+                darkTheme ? dark.PlaceholderColor.color : undefined
+              }
               maxLength={20}
               editable={editing}
               value={title}
@@ -203,6 +206,9 @@ export default function Note({ route, navigation }) {
           <ScrollView showsVerticalScrollIndicator={false}>
             <TextInput
               placeholder={editing ? 'Digite aqui sua anotação' : ''}
+              placeholderTextColor={
+                darkTheme ? dark.PlaceholderColor.color : undefined
+              }
               editable={editing}
               textAlignVertical="top"
               value={description}
@@ -302,6 +308,9 @@ export default function Note({ route, navigation }) {
                     handleChangeLabel(text, index);
                   }}
                   placeholder={editing ? 'Tarefa' : ''}
+                  placeholderTextColor={
+                    darkTheme ? dark.PlaceholderColor.color : undefined
+                  }
                   maxLength={30}
                   editable={editing}
                 />

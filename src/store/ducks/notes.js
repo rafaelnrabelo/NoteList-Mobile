@@ -20,7 +20,6 @@ const INITIAL_STATE = {
 };
 
 const add = (state = INITIAL_STATE, action) => {
-  console.log(state.newNotes);
   return {
     ...state,
     newNotes: [...state.newNotes, action.data.id],

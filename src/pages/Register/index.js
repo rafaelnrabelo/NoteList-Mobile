@@ -89,6 +89,9 @@ export default function Register({ navigation }) {
           <TextInput
             maxLength={20}
             placeholder="Titulo"
+            placeholderTextColor={
+              darkTheme ? dark.PlaceholderColor.color : undefined
+            }
             value={title}
             onChangeText={setTitle}
             style={darkTheme ? dark.TitleText : light.TitleText}
@@ -96,6 +99,9 @@ export default function Register({ navigation }) {
           <ScrollView showsVerticalScrollIndicator={false}>
             <TextInput
               placeholder="Digite aqui sua anotação"
+              placeholderTextColor={
+                darkTheme ? dark.PlaceholderColor.color : undefined
+              }
               textAlignVertical="top"
               value={description}
               multiline={true}
@@ -157,6 +163,9 @@ export default function Register({ navigation }) {
                     handleChangeLabel(text, index);
                   }}
                   placeholder="Tarefa"
+                  placeholderTextColor={
+                    darkTheme ? dark.PlaceholderColor.color : undefined
+                  }
                   maxLength={30}
                   autoFocus={true}
                 />

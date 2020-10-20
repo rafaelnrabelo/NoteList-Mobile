@@ -98,6 +98,10 @@ export const dark = StyleSheet.create({
     width: 260,
   },
 
+  PlaceholderColor: {
+    color: 'rgba(255, 255, 255, 0.5)',
+  },
+
   TitleView: {
     flexDirection: 'row',
     marginBottom: 10,

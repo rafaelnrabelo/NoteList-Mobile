@@ -31,9 +31,6 @@
     "updates": {
       "enabled": true,
       "fallbackToCacheTimeout": 0
-    },
-    "experiments": {
-      "redesignedLogBox": true
     }
   }
 }
